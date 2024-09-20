@@ -1,0 +1,183 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/josecerongalindo/Downloads/LoyaltyWall-Desarrollo 2/Loyaltywall.Prism/Loyaltywall.Prism.Android/Loyaltywall.Prism.Android.csproj": {}
+  },
+  "projects": {
+    "/Users/josecerongalindo/Downloads/LoyaltyWall-Desarrollo 2/Loyaltywall.Prism/Loyaltywall.Prism.Android/Loyaltywall.Prism.Android.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/josecerongalindo/Downloads/LoyaltyWall-Desarrollo 2/Loyaltywall.Prism/Loyaltywall.Prism.Android/Loyaltywall.Prism.Android.csproj",
+        "projectName": "Loyaltywall.Prism.Android",
+        "projectPath": "/Users/josecerongalindo/Downloads/LoyaltyWall-Desarrollo 2/Loyaltywall.Prism/Loyaltywall.Prism.Android/Loyaltywall.Prism.Android.csproj",
+        "packagesPath": "/Users/josecerongalindo/.nuget/packages/",
+        "outputPath": "/Users/josecerongalindo/Downloads/LoyaltyWall-Desarrollo 2/Loyaltywall.Prism/Loyaltywall.Prism.Android/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/Users/josecerongalindo/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid10.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid10.0": {
+            "projectReferences": {
+              "/Users/josecerongalindo/Downloads/LoyaltyWall-Desarrollo 2/Loyaltywall.Prism/Loyaltywall.Prism/Loyaltywall.Prism.csproj": {
+                "projectPath": "/Users/josecerongalindo/Downloads/LoyaltyWall-Desarrollo 2/Loyaltywall.Prism/Loyaltywall.Prism/Loyaltywall.Prism.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid10.0": {
+          "dependencies": {
+            "IdentityModel.OidcClient": {
+              "target": "Package",
+              "version": "[5.2.1, )"
+            },
+            "Prism.DryIoc.Forms": {
+              "target": "Package",
+              "version": "[8.1.97, )"
+            },
+            "Rg.Plugins.Popup": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Syncfusion.Xamarin.SfBusyIndicator": {
+              "target": "Package",
+              "version": "[22.2.8, )"
+            },
+            "Xam.Plugins.Settings": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Xamarin.Essentials.Interfaces": {
+              "target": "Package",
+              "version": "[1.7.0, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.2291, )"
+            }
+          }
+        }
+      }
+    },
+    "/Users/josecerongalindo/Downloads/LoyaltyWall-Desarrollo 2/Loyaltywall.Prism/Loyaltywall.Prism/Loyaltywall.Prism.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/josecerongalindo/Downloads/LoyaltyWall-Desarrollo 2/Loyaltywall.Prism/Loyaltywall.Prism/Loyaltywall.Prism.csproj",
+        "projectName": "Loyaltywall.Prism",
+        "projectPath": "/Users/josecerongalindo/Downloads/LoyaltyWall-Desarrollo 2/Loyaltywall.Prism/Loyaltywall.Prism/Loyaltywall.Prism.csproj",
+        "packagesPath": "/Users/josecerongalindo/.nuget/packages/",
+        "outputPath": "/Users/josecerongalindo/Downloads/LoyaltyWall-Desarrollo 2/Loyaltywall.Prism/Loyaltywall.Prism/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/josecerongalindo/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "IdentityModel.OidcClient": {
+              "target": "Package",
+              "version": "[5.2.1, )"
+            },
+            "MagicGradients": {
+              "target": "Package",
+              "version": "[1.3.1, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Prism.DryIoc.Forms": {
+              "target": "Package",
+              "version": "[8.1.97, )"
+            },
+            "Rg.Plugins.Popup": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Syncfusion.Licensing": {
+              "target": "Package",
+              "version": "[22.2.8, )"
+            },
+            "Syncfusion.Xamarin.Buttons": {
+              "target": "Package",
+              "version": "[22.2.8, )"
+            },
+            "Syncfusion.Xamarin.Core": {
+              "target": "Package",
+              "version": "[22.2.8, )"
+            },
+            "Syncfusion.Xamarin.SfBusyIndicator": {
+              "target": "Package",
+              "version": "[22.2.8, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.32.2, )"
+            },
+            "Xam.Plugins.Forms.ImageCircle": {
+              "target": "Package",
+              "version": "[3.0.0.5, )"
+            },
+            "Xam.Plugins.Settings": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Xamarin.Essentials.Interfaces": {
+              "target": "Package",
+              "version": "[1.7.0, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.2291, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/Users/josecerongalindo/Library/Caches/VisualStudio/17.0/MSBuild/84537_3/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
